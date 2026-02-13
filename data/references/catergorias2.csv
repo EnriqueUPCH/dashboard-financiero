@@ -1,0 +1,36 @@
+patron,descripcion_limpia,categoria,supercategoria,prioridad
+falabella,FALABELLA,Falabella,Compras,1
+plaza\s*vea,PLAZA VEA,Plaza Vea,Supermercados,1
+wong,WONG,Wong,Supermercados,1
+tottus,TOTTUS,Tottus,Supermercados,1
+oxxo,OXXO,Oxxo,Supermercados,1
+tambo,TAMBO,Tambo,Supermercados,1
+tai\s*loy,TAI LOY,Tai Loy,Compras,1
+
+uber,UBER,Uber,Movilidad,1
+
+netflix,NETFLIX,Netflix,Streaming,1
+spotify,SPOTIFY,Spotify,Streaming,1
+disney,DISNEY,Disney,Streaming,1
+
+apparka,APPARKA,Aparka,Estacionamiento,1
+
+botica|farmacia|clinica|hospital,SALUD,Salud,Salud,2
+
+tele|clar|telefono|movistar|claro|entel,TELEFONO,Teléfono,Teléfono,2
+
+kfc,KFC,KFC,Comidas,1
+mcdonald,MCDONALDS,McDonalds,Comidas,1
+burger\s*king,BURGER KING,Burger King,Comidas,1
+norkys,NORKYS,Norkys,Comidas,1
+
+restaurante,RESTAURANTE,Restaurante,Comidas,2
+food|burger|listo|shenandoah,FOOD,Food,Comidas,3
+
+eds|estacion|servicentro,COMBUSTIBLE,Combustible,Movilidad,3
+
+univ|universidad,EDUCACION,Educación,Educación,2
+
+market,MARKET,Market,Supermercados,5
+jockey\s*plaza,JOCKEY PLAZA,Jockey Plaza,Supermercados,15
+la\s*rocca,LA ROCCA,La Rocca,Comidas,4

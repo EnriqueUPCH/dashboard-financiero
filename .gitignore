@@ -1,0 +1,8 @@
+VisaOroBCPQore.xlsx 
+venv/
+__pycache__/
+*.pyc
+.streamlit/
+.env
+.DS_Store
+
