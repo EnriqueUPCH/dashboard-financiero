@@ -1,26 +1,55 @@
 # 📊 Dashboard Financiero Personal
 
-Aplicación desarrollada con **Streamlit** para el análisis de gastos y aportes personales a partir de archivos Excel o CSV.
+Aplicación interactiva desarrollada con **Streamlit** para el análisis de gastos y aportes personales a partir de archivos Excel o CSV.
+
+---
+
+## 🌐 Demo en vivo
+
+[👉 LINK_DEMO](https://financialappdashboard.streamlit.app/)
+
+---
+
+## 🎯 Problema que resuelve
+
+Muchos usuarios descargan sus movimientos bancarios en Excel pero no cuentan con una herramienta visual para:
+
+- Analizar su flujo de caja
+- Identificar categorías dominantes
+- Evaluar su balance mensual
+- Generar reportes ejecutivos
+
+Este proyecto transforma datos crudos en un dashboard financiero interactivo.
 
 ---
 
 ## 🚀 Funcionalidades
 
-- 📂 Carga de archivos (Excel / CSV)
-- 🧹 Limpieza y procesamiento automático
-- 🏷 Clasificación por categoría y supercategoría
-- 📊 Visualización interactiva:
-  - Movimiento mensual
-  - Comparativo Gastos vs Aportes
-  - Distribución por categoría
-  - Evolución temporal
-- 🎯 Filtros dinámicos:
-  - Tipo de movimiento
-  - Mes
-  - Categoría
-- 📥 Exportación de reportes:
-  - Excel profesional (múltiples hojas)
-  - PDF ejecutivo
+### 📂 Carga de datos
+- Drag & Drop de archivos Excel o CSV
+- Procesamiento automático de fechas y montos
+
+### 🎛 Filtros dinámicos
+- Tipo de movimiento (Gastos / Aportes / Ambos)
+- Filtro por mes
+- Filtro por categoría
+
+### 📊 Visualizaciones interactivas
+- Movimiento mensual
+- Evolución temporal
+- Comparativo Gastos vs Aportes
+- Distribución por categoría
+- Distribución por supercategoría
+
+### 📥 Exportación profesional
+- 📊 Excel multi-hoja:
+  - Datos filtrados
+  - Resumen mensual
+  - Resumen por categoría
+  - Balance por tipo
+- 📄 PDF ejecutivo:
+  - KPIs principales
+  - Resumen por categoría
 
 ---
 
@@ -35,5 +64,30 @@ Aplicación desarrollada con **Streamlit** para el análisis de gastos y aportes
 
 ---
 
-## 📁 Estructura del proyecto
+## 🧠 Arquitectura del proyecto
+dashboard-financiero/
+│
+├── app/
+│ └── app2.py # Aplicación principal
+│
+├── utils/
+│ ├── carga.py # Carga de archivos
+│ ├── limpieza.py # Procesamiento de datos
+│ ├── matching.py # Clasificación por patrones
+│ ├── graficos.py # Visualizaciones
+│ ├── export.py # Exportación Excel
+│ └── export_pdf.py # Generación de PDF
+│
+├── assets/ # Capturas del dashboard
+├── requirements.txt
+└── README.md
+
+
+---
+
+## 📸 Capturas
+
+```markdown
+![Dashboard](assets/dashboard.png)
+
 
